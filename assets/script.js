@@ -8,6 +8,7 @@ let yourName = "Andrea Boothe" // HINT: Replace this with your own name!
 let gb = 0      // Gingerbread
 let cc = 0      // Chocolate Chip
 let sugar = 0   // Sugar Sprinkle
+let Total = 0
 
 // Code to update name display 
 document.getElementById('credit').textContent = `Created by ${yourName}`
@@ -53,8 +54,6 @@ document.getElementById('add-sugar').addEventListener('click', function () {
     console.log('Sugar Sprinkle + button was clicked!')
     console.log(sugar)
     document.getElementById('qty-sugar').textContent = sugar
-    console.log(total)
-    document.getElementById('qty-total').textContent = total
 })
 
 document.getElementById('minus-sugar').addEventListener('click', function () {
@@ -64,15 +63,8 @@ document.getElementById('minus-sugar').addEventListener('click', function () {
     document.getElementById('qty-sugar').textContent = sugar
 })
 
-//document.getElementById('add-total').addEventListener('click', function () {
-  //  if {gb+1 
-    //console.log('qty-total + button was clicked!')
-    //console.log(qty-total)};
-    //else {cc+1 
-    //console.log('qty-total + button was clicked!')
-    //console.log(qty-total)};
-    //else {sugar+1
-    //console.log('qty-total + button was clicked!')
-    //console.log(qty-total)};
-    //document.getElementById('qty-total').textContent = qty-total
-//})
+document.getElementById('qty-total').addEventListener('click', function () {
+(gb+=1)+(gb-=1)+(cc+=1)+(cc-+1)+(sugar+=1)+(sugar-+1) = qty-total
+console.log(Total)
+document.getElementById('qty-total').textContent = Total
+})
